@@ -42,7 +42,7 @@ Este programa implementa um sistema de validação de acesso com base em conceit
 
 - **inversoModular(int G, int n)**: Calcula o inverso modular de G em Z_n utilizando o Algoritmo Estendido de Euclides.
 
-- **exponenciacaoModular(int base, int exp, int mod)**: Exponenciação modular eficiente, calcula \(\text{base}^{\text{exp}} \mod \text{mod}\).
+- **exponenciacaoModular(int base, int exp, int mod)**: Exponenciação modular eficiente, calcula base^exp mod n.
 
 - **phi(int n)**: Calcula a função totiente de Euler para um número n.
 
