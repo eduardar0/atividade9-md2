@@ -101,10 +101,6 @@ int main() {
 
     int Ginv = inversoModular(G, n);
 
-    // if (Ginv == -1) {
-    //     printf("G = %d nao possui inverso em Z%d. Divisão nao possível.\n", G, n);
-    //     return 1;
-    // } 
 
     printf("Usando os restos encontrados no algoritmo de euclides ao encontar o mdc no teorema de bezoult, o inverso de %d em z%d e: %d\n", G, n, Ginv);
     printf("\n");
