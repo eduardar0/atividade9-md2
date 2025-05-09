@@ -31,6 +31,23 @@ Este programa implementa um sistema de validação de acesso com base em conceit
 7. **Cálculo de Valores Intermediários**: Calcula os valores intermediários necessários para a exponenciação modular.
 8. **Cálculo do Resultado Final**: Combina os valores intermediários e calcula o resultado final da congruência.
 
+
+## Funções Implementadas
+
+- **algEuclides(int a, int b)**: Algoritmo de Euclides para calcular o maior divisor comum entre a e b.
+
+- **saoCoprimos(int a, int b)**: Verifica se os números a e b são coprimos (MDC(a, b) = 1).
+
+- **primo(int n)**: Verifica se um número n é primo.
+
+- **inversoModular(int G, int n)**: Calcula o inverso modular de G em Z_n utilizando o Algoritmo Estendido de Euclides.
+
+- **exponenciacaoModular(int base, int exp, int mod)**: Exponenciação modular eficiente, calcula \(\text{base}^{\text{exp}} \mod \text{mod}\).
+
+- **phi(int n)**: Calcula a função totiente de Euler para um número n.
+
+
+
 ## Dependencias
 
 - gcc ou outro compilador C.
