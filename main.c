@@ -75,14 +75,10 @@ int phi(int n) {
 int main() {
     
     int H, G, n, x, n1;
-    printf("Digite os valores de H, G, n somente: \n");
-    scanf("%d %d %d", &H, &G, &n);
+    printf("Digite os valores de H, G, n , x e n1: \n");
+    scanf("%d %d %d %d %d", &H, &G, &n, &x, &n1);
     printf("\n");
 
-    printf("Agora digite o expoente x que vai exponenciar A, e o novo modulo n1:\n");
-    scanf("%d %d", &x, &n1);
-
-    printf("\n");
 
     // Topico 1 do docuemnto: Verificar se G e n são coprimos usando Euclides
 
@@ -150,7 +146,7 @@ int main() {
     if (primo
     (n1)) {
         x1 = n1 - 1;
-        printf("SIM! n1 e primo. Usando Pequeno Teorema de Fermat x1 = %d - 1 (x1 será decomposto em funcao do expoente)  = %d\n", n1,x1);
+        printf("SIM! n1 e primo. Usando Pequeno Teorema de Fermat x1 = %d - 1 (x1 sera decomposto em funcao do expoente)  = %d\n", n1,x1);
         printf("\n");
     } 
     
