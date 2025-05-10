@@ -128,7 +128,7 @@ int main() {
 
 
     if (!saoCoprimos(a, n1)) {
-        printf("NAO! a e n1 nao sao coprimos. Euller ou fermat não funcionariam.\n");
+        printf("NAO! a e n1 nao sao coprimos. Euller ou fermat nao funcionariam.\n");
         return 1;
     } 
     
